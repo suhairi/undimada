@@ -1,0 +1,7 @@
+.swp
+.swo
+.swn
+.orig
+.here
+protected/runtime
+^assets/
