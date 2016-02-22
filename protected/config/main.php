@@ -22,7 +22,7 @@ return array(
 		// uncomment the following to enable the Gii tool
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'mygii',
+			'password'=>'suhairi',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
@@ -91,7 +91,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=undimada',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'zxsw@34rfv',
 			'charset' => 'utf8',
 			'enableParamLogging' => true,
 		),
@@ -120,7 +120,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
-		'adminUrl'=>'localhost',
+		'adminUrl'=> 'localhost',
 	),
 
 );
