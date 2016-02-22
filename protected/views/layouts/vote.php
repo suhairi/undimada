@@ -17,7 +17,7 @@
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
-<body class="bg_body" style="background: url(<?php echo Yii::app()->request->baseUrl;?>/images/bg_mada_1.png) no-repeat scroll center top #46561F;">
+<body class="bg_body" style="background: url(<?php echo Yii::app()->request->baseUrl;?>/images/bg_lpp_1.png) no-repeat scroll center top #46561F;">
 
 <div class="container" id="page">
 	<?php echo $content; ?>

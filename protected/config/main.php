@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'MADA :: Sistem Undimaya',
+	'name'=>'Sistem Undimaya',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -22,9 +22,9 @@ return array(
 		// uncomment the following to enable the Gii tool
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'suhairi',
+			'password'=>'mygii',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1'),
+			'ipFilters'=>array('219.92.23.64','127.0.0.1','::1'),
 		),
 	),
 
@@ -88,10 +88,10 @@ return array(
 		),
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=undimada',
+			'connectionString' => 'mysql:host=localhost;dbname=undimaya',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'zxsw@34rfv',
+			'username' => 'undimaya',
+			'password' => 'undimaya123',
 			'charset' => 'utf8',
 			'enableParamLogging' => true,
 		),
@@ -120,7 +120,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
-		'adminUrl'=> 'localhost',
+		'adminUrl'=>'128.199.179.112',
 	),
 
 );
