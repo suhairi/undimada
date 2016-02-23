@@ -74,10 +74,11 @@ else{
 <ul>
 	<?php $count=1; foreach($candidates as $calon){ ?>
 	<li class="calon" data-id="<?php echo $calon->id?>">
+	<img class="profile" src="<?php echo '../images/profile/' . $calon->picture?>" width="70" height="70" />
 	<p><?php echo $count++.". ".$calon->name?></p>
 	<img class="ticked" src="../images/ticked.png"/>
 <?php if($calon->picture) { ?>
-	<img class="gambar" src="<?php echo $calon->picture?>"/>
+	<img class="gambar" src="../images/defaultface.png"/>
 <?php } else { ?>
 	<img class="gambar" src="../images/defaultface.png"/>
 <?php } ?>

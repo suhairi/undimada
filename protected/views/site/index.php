@@ -1,5 +1,5 @@
 <?php $this->pageTitle=Yii::app()->name; ?>
-<h1>Selamat datang ke Sistem Undimaya</h1>
+<h1>Selamat datang ke e-Undi</h1>
 <?php if(!Yii::app()->user->isGuest){ ?>
 <ul>
 <li><?php echo CHtml::link('Elections',array('elections/'));?></li>

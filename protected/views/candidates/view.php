@@ -24,5 +24,10 @@ $this->menu=array(
 		'seat_id',
 		'name',
 		'nickname',
+		array(
+            'type' => 'raw',
+            'value' => CHtml::image(Yii::app()->baseUrl . "/images/profile/" . $model->picture, "",array('width'=>150, 'height'=>130)),
+        ),
+		'seat_id',
 	),
 )); ?>

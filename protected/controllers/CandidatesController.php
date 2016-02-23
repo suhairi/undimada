@@ -66,9 +66,14 @@ array('deny',  // deny all users
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
+
 		if(isset($_POST['Candidates']))
 		{
 			$model->attributes=$_POST['Candidates'];
+
+			var_dump($_POST['Candidates']);
+			exit;
+
 			if($model->save())
 				$this->redirect(array('index','seat_id'=>$model->seat->id));
 		}

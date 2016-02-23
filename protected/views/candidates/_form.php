@@ -3,6 +3,9 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'candidates-form',
 	'enableAjaxValidation'=>false,
+	'htmlOptions' => array(
+            'enctype' => 'multipart/form-data'
+        )
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -35,11 +38,12 @@
 		<?php echo $form->error($model,'nickname'); ?>
 	</div>
 
-	<!--<div class="row">
+	<div class="row">
 		<?php echo $form->labelEx($model,'picture'); ?>
-		<?php echo $form->textField($model,'picture',array('size'=>60,'maxlength'=>200)); ?>
-		<?php echo $form->error($model,'picture'); ?>
-	</div>-->
+		<!-- <?php echo $form->fileField($model,'picture',array('size'=>60,'maxlength'=>200)); ?> -->
+		<?php echo $form->fileField($model, 'picture', ''); ?>
+		<!-- <?php echo $form->error($model,'picture'); ?> -->
+	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
@@ -47,4 +51,5 @@
 
 <?php $this->endWidget(); ?>
 
-</div><!-- form -->
+</div>
+<!-- form -->
