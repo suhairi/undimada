@@ -7666,3 +7666,9 @@ Stack trace:
 REQUEST_URI=/undimada/candidates/create?seat_id=39
 HTTP_REFERER=http://localhost/undimada/candidates/create?seat_id=39
 ---
+2016/02/23 00:00:15 [error] [system.services.KitController] foo
+in C:\laragon\www\undimada\protected\controllers\SiteController.php (91)
+in C:\laragon\www\undimada\index.php (13)
+2016/02/23 00:00:21 [error] [system.services.KitController] foo
+in C:\laragon\www\undimada\protected\controllers\SiteController.php (91)
+in C:\laragon\www\undimada\index.php (13)
