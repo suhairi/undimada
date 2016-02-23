@@ -6929,3 +6929,129 @@ Stack trace:
 #24 {main}
 REQUEST_URI=/Votes/welcome
 ---
+2016/02/22 15:58:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'undimaya'@'localhost' (using password: YES)' in C:\laragon\www\undimada\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\laragon\www\undimada\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\laragon\www\undimada\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\laragon\www\undimada\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Elections))
+#7 C:\laragon\www\undimada\protected\models\Elections.php(25): CActiveRecord::model('Elections')
+#8 C:\laragon\www\undimada\protected\controllers\VotesController.php(56): Elections::model()
+#9 [internal function]: VotesController->actionWelcome(NULL)
+#10 C:\laragon\www\undimada\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(VotesController), Array)
+#11 C:\laragon\www\undimada\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(VotesController), Object(ReflectionMethod), Array)
+#12 C:\laragon\www\undimada\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\undimada\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\undimada\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\laragon\www\undimada\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\undimada\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\laragon\www\undimada\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\laragon\www\undimada\yii\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\laragon\www\undimada\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(276): CController->run('welcome')
+#21 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Votes/welcome')
+#22 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/undimada/Votes/welcome
+HTTP_REFERER=http://localhost/undimada/candidates/17
+---
+2016/02/22 15:58:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'undimaya'@'localhost' (using password: YES)' in C:\laragon\www\undimada\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\laragon\www\undimada\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\laragon\www\undimada\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\laragon\www\undimada\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Elections))
+#7 C:\laragon\www\undimada\protected\models\Elections.php(25): CActiveRecord::model('Elections')
+#8 C:\laragon\www\undimada\protected\controllers\VotesController.php(56): Elections::model()
+#9 [internal function]: VotesController->actionWelcome(NULL)
+#10 C:\laragon\www\undimada\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(VotesController), Array)
+#11 C:\laragon\www\undimada\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(VotesController), Object(ReflectionMethod), Array)
+#12 C:\laragon\www\undimada\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\undimada\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\undimada\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\laragon\www\undimada\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\undimada\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\laragon\www\undimada\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\laragon\www\undimada\yii\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\laragon\www\undimada\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(276): CController->run('welcome')
+#21 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Votes/welcome')
+#22 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/undimada/Votes/welcome
+HTTP_REFERER=http://localhost/undimada/candidates/17
+---
+2016/02/22 15:58:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'undimaya'@'localhost' (using password: YES)' in C:\laragon\www\undimada\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\laragon\www\undimada\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\laragon\www\undimada\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\laragon\www\undimada\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Elections))
+#7 C:\laragon\www\undimada\protected\models\Elections.php(25): CActiveRecord::model('Elections')
+#8 C:\laragon\www\undimada\protected\controllers\VotesController.php(56): Elections::model()
+#9 [internal function]: VotesController->actionWelcome(NULL)
+#10 C:\laragon\www\undimada\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(VotesController), Array)
+#11 C:\laragon\www\undimada\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(VotesController), Object(ReflectionMethod), Array)
+#12 C:\laragon\www\undimada\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\undimada\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\undimada\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\laragon\www\undimada\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\undimada\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\laragon\www\undimada\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\laragon\www\undimada\yii\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\laragon\www\undimada\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(276): CController->run('welcome')
+#21 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Votes/welcome')
+#22 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/undimada/Votes/welcome
+HTTP_REFERER=http://localhost/undimada/candidates/17
+---
+2016/02/22 15:58:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'undimaya'@'localhost' (using password: YES)' in C:\laragon\www\undimada\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\laragon\www\undimada\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\laragon\www\undimada\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\laragon\www\undimada\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 C:\laragon\www\undimada\yii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Elections))
+#7 C:\laragon\www\undimada\protected\models\Elections.php(25): CActiveRecord::model('Elections')
+#8 C:\laragon\www\undimada\protected\controllers\VotesController.php(56): Elections::model()
+#9 [internal function]: VotesController->actionWelcome(NULL)
+#10 C:\laragon\www\undimada\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(VotesController), Array)
+#11 C:\laragon\www\undimada\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(VotesController), Object(ReflectionMethod), Array)
+#12 C:\laragon\www\undimada\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\undimada\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\undimada\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\laragon\www\undimada\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\undimada\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\laragon\www\undimada\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\laragon\www\undimada\yii\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\laragon\www\undimada\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(276): CController->run('welcome')
+#21 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Votes/welcome')
+#22 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/undimada/Votes/welcome
+HTTP_REFERER=http://localhost/undimada/candidates/17
+---
+2016/02/22 15:59:24 [error] [system.services.KitController] foo
+in C:\laragon\www\undimada\protected\controllers\SiteController.php (91)
+in C:\laragon\www\undimada\index.php (13)
+2016/02/22 15:59:28 [error] [system.services.KitController] foo
+in C:\laragon\www\undimada\protected\controllers\SiteController.php (91)
+in C:\laragon\www\undimada\index.php (13)

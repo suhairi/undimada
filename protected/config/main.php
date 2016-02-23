@@ -88,10 +88,10 @@ return array(
 		),
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=undimaya',
+			'connectionString' => 'mysql:host=localhost;dbname=undimada',
 			'emulatePrepare' => true,
-			'username' => 'undimaya',
-			'password' => 'undimaya123',
+			'username' => 'root',
+			'password' => 'zxsw@34rfv',
 			'charset' => 'utf8',
 			'enableParamLogging' => true,
 		),
@@ -120,7 +120,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
-		'adminUrl'=>'128.199.179.112',
+		'adminUrl'=>'localhost',
 	),
 
 );

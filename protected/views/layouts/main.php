@@ -51,7 +51,7 @@
 	<div class="clear"></div>
 
 	<div class="noprint" id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by Abadi-IT.<br/>
+		Copyright &copy; <?php echo date('Y'); ?> by Unit IT (PIP).<br/>
 		All Rights Reserved.<br/>
 	</div><!-- footer -->
 

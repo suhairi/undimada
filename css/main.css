@@ -268,13 +268,17 @@ h1 {
 	font-size: 30pt;
 }
 
-.mainheader img {
-	float: left;
+.mainheader {
+	align:center;
 }
+
+/*.mainheader img {
+	float: center;
+}*/
 
 .mainheader h1 {
 	padding-top: 30px;
-	float: left;
+	float: center;
 	clear: right;
 }
 
@@ -284,10 +288,12 @@ form#tokenform {
 	padding: 20px;
 	width: 100%;
 	text-align: center;
+	float: center;
 }
 
 form#tokenform input {
 	font-size: 30pt;
+	border-radius: 5px;
 }
 
 .calon {
@@ -310,7 +316,7 @@ form#tokenform input {
 
 .votebutton {
 	margin: 10px;
-	background-color: #3333ee;
+	background-color: #3b5998;
 	color: #ffffff;
 	font-size: 22pt;
 }
