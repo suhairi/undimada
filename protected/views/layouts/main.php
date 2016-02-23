@@ -53,6 +53,7 @@
 	<div class="noprint" id="footer">
 		Copyright &copy; <?php echo date('Y'); ?> by Unit IT (PIP).<br/>
 		All Rights Reserved.<br/>
+		<!-- Suhairi Abdul Hamid -->
 	</div><!-- footer -->
 
 </div><!-- page -->

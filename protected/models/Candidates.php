@@ -17,6 +17,8 @@
  */
 class Candidates extends CActiveRecord
 {
+	public $file;
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -46,6 +48,7 @@ class Candidates extends CActiveRecord
 			array('name, election_id, seat_id', 'required'),
 			array('election_id, seat_id', 'numerical', 'integerOnly'=>true),
 			array('name, nickname, picture', 'length', 'max'=>200),
+			array(array('file'), 'file'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, name, nickname, picture, election_id, seat_id, votescount', 'safe', 'on'=>'search'),

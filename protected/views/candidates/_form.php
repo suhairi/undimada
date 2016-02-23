@@ -1,5 +1,3 @@
-<div class="form">
-
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'candidates-form',
 	'enableAjaxValidation'=>false,
@@ -7,6 +5,9 @@
             'enctype' => 'multipart/form-data'
         )
 )); ?>
+
+
+<div class="form">
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
@@ -40,8 +41,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'picture'); ?>
-		<!-- <?php echo $form->fileField($model,'picture',array('size'=>60,'maxlength'=>200)); ?> -->
-		<?php echo $form->fileField($model, 'picture', ''); ?>
+		<?php echo $form->fileField($model, 'picture'); ?>
 		<!-- <?php echo $form->error($model,'picture'); ?> -->
 	</div>
 
