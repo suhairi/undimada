@@ -182,18 +182,23 @@ class ElectionsController extends Controller
 	public function actionResultform($id)
 	{
 		$this->layout='blankback';
+
 		$seats = Seats::model()->with(array(
 			'candidates.votes'=>array('order'=>'candidates.votescount desc'),
 		))->findAll(array('condition'=>'t.election_id='.$id,'order'=>'priority asc'));
+
+
 		$election = Elections::model()->with('tokens')->findByPk($id);
 		$usedtokens = Tokens::model()->used($id)->findAll();
+
+
 		$mPDF1 = Yii::app()->ePdf->mpdf();
 		$mPDF1->WriteHTML(
-		$this->render('resultform',array(
-			'seats'=>$seats,
-			'election'=>$election,
-			'usedtokens'=>$usedtokens,
-		),true));
+			$this->render('resultform',array(
+				'seats'=>$seats,
+				'election'=>$election,
+				'usedtokens'=>$usedtokens,
+			),true));
 		$mPDF1->Output('results-'.$election->name.'.pdf','I');
 	}
 
