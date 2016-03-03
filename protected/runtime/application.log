@@ -8241,3 +8241,467 @@ Stack trace:
 REQUEST_URI=/undimada/images/bg_lpp_1.png
 HTTP_REFERER=http://localhost/undimada/Elections/index
 ---
+2016/03/03 10:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/undimada/images/bg_lpp_1.png
+HTTP_REFERER=http://localhost/undimada/Elections/index
+---
+2016/03/03 10:49:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/welcome
+---
+2016/03/03 10:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/undimada/images/bg_lpp_1.png
+HTTP_REFERER=http://localhost/undimada/admin
+---
+2016/03/03 10:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/undimada/images/bg_lpp_1.png
+HTTP_REFERER=http://localhost/undimada/elections/1
+---
+2016/03/03 10:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/undimada/images/bg_lpp_1.png
+HTTP_REFERER=http://localhost/undimada/elections/update/1
+---
+2016/03/03 10:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/undimada/images/bg_lpp_1.png
+HTTP_REFERER=http://localhost/undimada/elections/1
+---
+2016/03/03 10:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/undimada/images/bg_lpp_1.png
+HTTP_REFERER=http://localhost/undimada/Tokens/index?election_id=1
+---
+2016/03/03 10:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:56:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:56:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:57:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:57:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:59:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 10:59:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:12:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "12-em-cross.png".' in C:\laragon\www\undimada\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CController.php(271): CController->missingAction('12-em-cross.png')
+#1 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(276): CController->run('12-em-cross.png')
+#2 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Votes/12-em-cro...')
+#3 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Votes/12-em-cross.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:12:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:13:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:13:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "12-em-cross.png".' in C:\laragon\www\undimada\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CController.php(271): CController->missingAction('12-em-cross.png')
+#1 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(276): CController->run('12-em-cross.png')
+#2 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Votes/12-em-cro...')
+#3 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Votes/12-em-cross.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:13:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "12-em-cross.png".' in C:\laragon\www\undimada\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CController.php(271): CController->missingAction('12-em-cross.png')
+#1 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(276): CController->run('12-em-cross.png')
+#2 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Votes/12-em-cro...')
+#3 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Votes/12-em-cross.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:13:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/12-em-cross.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/12-em-cr...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/12-em-cross.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/12-em-cross.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/12-em-cr...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/12-em-cross.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:16:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/12-em-cross.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/12-em-cr...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/12-em-cross.png
+---
+2016/03/03 11:16:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/images/12-em-cross.png
+---
+2016/03/03 11:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:16:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:17:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:17:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:17:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:18:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:23:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:23:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:25:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:26:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:26:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:27:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---
+2016/03/03 11:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_lpp_1.png".' in C:\laragon\www\undimada\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\laragon\www\undimada\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_lpp_1...')
+#1 C:\laragon\www\undimada\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\laragon\www\undimada\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_lpp_1.png
+HTTP_REFERER=http://undimada.dev/Votes/vote
+---

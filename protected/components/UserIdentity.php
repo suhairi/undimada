@@ -19,7 +19,7 @@ class UserIdentity extends CUserIdentity
 	{
 		$users=array(
 			// username => password
-			'admin'=>'admin',
+			'admin'=>'suhairi',
 		);
 		$userpass = Yii::app()->settings->get("users","admin");
 		if(!$userpass){
