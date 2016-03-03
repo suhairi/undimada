@@ -6,16 +6,16 @@ foreach($seats as $seat){
 		echo "<p style='page-break-before:always'></p>";
 	}
 
-	$ppk_name = explode(' ', $seat->name);
-	$count = count($ppk_name);
-	$count--;
+	$election_name = explode('-', $seat->name);
+	// $count = count($ppk_name);
+	// $count--;
 
 
 	$i=1;
 ?>
 	<h1>KEPUTUSAN <?php echo strtoupper($election->name);?></h1>
-<h1>SENARAI KEPUTUSAN PEMILIHAN JEMAAH PENGARAH</h1>
-	<h2>NAMA PPK : <?php echo $ppk_name[$count - 1] . ' - ' . $ppk_name[$count]; ?></h2>
+<h1>SENARAI KEPUTUSAN PEMILIHAN</h1>
+	<h2>NAMA KATEGORI PEMILIHAN : <u><?php echo $election_name[0]; ?></u></h2>
 <h2>TARIKH MESYUARAT AGUNG : <?php echo date('d/m/Y',strtotime($election->start_date));?></h2>
 <table class='resultlist'>
 <thead>
@@ -82,11 +82,10 @@ foreach($seats as $seat){
 	<td>
 		(hendaklah disediakan dalam 2 salinan)<br/>
 		Salinan asal<br/>
-		Untuk Bahagian Pengurusan<br/>
-		Bahagian Pengurusan Institusi Peladang<br/>
+		Untuk Bahagian Pengurusan Institusi Peladang<br/>
 		<br/>
 		Salinan Kedua<br/>
-		Untuk Simpanan MADA / PPK
+		Untuk Simpanan PPK
 	</td>
 </tr>
 </table>

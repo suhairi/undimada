@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Sistem e-Undi',
+	'timeZone' => 'Asia/Kuala_Lumpur',
 
 	// preloading 'log' component
 	'preload'=>array('log'),

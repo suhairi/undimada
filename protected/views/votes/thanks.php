@@ -5,6 +5,7 @@ setTimeout(function() {
 	}, 3000);
 ",CClientScript::POS_READY);
 ?>
+<br /><br /><br /><br /><br /><br />
 <div class='undi'>
 <h1>Terima Kasih Kerana Mengundi</h1>
 <form action="welcome" method="get">

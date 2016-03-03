@@ -9,6 +9,7 @@ $('#token').focus();
 ?>
 
 <img src="<?php echo Yii::app()->request->baseUrl;?>/images/logo.jpg"/>
+
 <h1>Selamat Datang Ke Sistem e-Undi</h1>
 <!-- <h1>Lembaga Kemajuan Pertanian Muda <br /> (MADA)</h1> -->
 <blockquote>Wahai orang-orang yang beriman! Janganlah kamu mengambil orang-orang yang menjadikan agama kamu sebagai ejek-ejekan dan permainan dari orang-orang yang telah diberikan Kitab sebelum kamu dan orang-orang kafir musyrik itu: Menjadi penolong-penolong dan bertakwalah kepada Allah, jika kamu benar-benar orang yang beriman.</blockquote>
@@ -26,6 +27,6 @@ if($error_msg){
 ?>
 <form id="tokenform" action="vote" method="post">
 <label>Taipkan nombor anda di sini :</label>
-<input id="token" type="text" name="token"/><br />
+<input id="token" type="text" name="token" autocomplete="off" /><br />
 <input class="votebutton" type="submit" value="Tekan Sini Untuk Undian"/>
 </form>

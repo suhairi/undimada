@@ -20,8 +20,8 @@
 <body class="bg_body" style="background: url(<?php echo Yii::app()->request->baseUrl;?>/images/bg_lpp_1.png) no-repeat scroll center top #46561F;">
 <?php if(Yii::app()->user->hasFlash('popup')):?>
 <script>
-        alert('<?php echo Yii::app()->user->getFlash('popup'); ?>');
-		</script>
+    alert('<?php echo Yii::app()->user->getFlash('popup'); ?>');
+</script>
 <?php endif; ?>
 
 <div class="container" id="page">
@@ -40,6 +40,7 @@
 			),
 		)); ?>
 	</div><!-- mainmenu -->
+	<?php echo date('Y-m-d H:i:s'); ?>
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
 			'links'=>$this->breadcrumbs,
