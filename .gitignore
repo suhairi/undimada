@@ -1,0 +1,6 @@
+images/*
+yii/*
+themes/*
+assets/*
+*.sql
+*.txt
