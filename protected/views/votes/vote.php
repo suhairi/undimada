@@ -13,7 +13,7 @@ $('#close_message').click(function()
   $('#message_box').animate({ top:'+=15px',opacity:0 }, 'slow');
 });
 
-$('#message_box').html('<h3>Pilihan yang telah dibuat</h3><h2>0/' + $seat->candidate_amount + '</h2>');
+$('#message_box').html('<h3>Bilangan undian yang telah dibuat</h3><h2>0/' + $seat->candidate_amount + '</h2>');
 
 var selected = 0;
 $('.ticked').hide();
