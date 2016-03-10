@@ -52,7 +52,7 @@ $('.calon').bind('click', function() {
 		$(this).data('chosen',false);
 		$(this).find('.field').val('0');
 		selected-=1;
-		$('#message_box').html('<h3>Pilihan yang telah dibuat</h3><h2>' + selected + '/' + $seat->candidate_amount + '</h2>');
+		$('#message_box').html('<h3>Bilangan undian yang telah dibuat</h3><h2>' + selected + '/' + $seat->candidate_amount + '</h2>');
 
 	} else {
 		if(selected<".$seat->candidate_amount."){
@@ -61,7 +61,7 @@ $('.calon').bind('click', function() {
 		$(this).data('chosen',true);
 		$(this).find('.field').val('1');
 		selected+=1;
-		$('#message_box').html('<h3>Pilihan yang telah dibuat</h3><h2>' + selected + '/' + $seat->candidate_amount + '</h2>');		
+		$('#message_box').html('<h3>Bilangan undian yang telah dibuat</h3><h2>' + selected + '/' + $seat->candidate_amount + '</h2>');		
 	} else {
 		alert('Pilihan anda telah mencapai had jumlah calon');
 	}
@@ -97,7 +97,7 @@ $('#undian').submit(function(){
 	text-align:center;
 	font-weight:bold;
 	width:250px;
-	height: 80px;
+	height: 90px;
 }
 
 
